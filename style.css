@@ -10,3 +10,24 @@
   height: 20vh;
   object-fit: contain;
 }
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 20rem;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {    
+    width: 10rem;
+    margin-right: 2rem;
+  }
+}
+
+body {
+  font-size: 14px;
+}
+div {
+  font-size: 1.2em;
+}
