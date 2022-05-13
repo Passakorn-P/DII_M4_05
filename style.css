@@ -46,3 +46,12 @@ body {
         width:100%;
     }
 }
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .banner {
+        background-color: rgb(49, 135, 185);
+    }
+    .content,
+    .sideboard {
+        width:100%;
+    }
+}
